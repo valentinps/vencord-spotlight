@@ -1,0 +1,6 @@
+{
+    // Lets the Vencord build resolve @api/@utils/@webpack aliases from this folder
+    // (the plugin is linked into Vencord/src/userplugins/spotlight).
+    "extends": "../../../Vencord/tsconfig.json",
+    "include": ["./**/*"]
+}
